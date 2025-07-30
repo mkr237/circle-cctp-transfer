@@ -1,0 +1,36 @@
+{
+  "name": "circle-cctp-transfer",
+  "version": "1.0.0",
+  "description": "Cross-chain USDC transfer tool using Circle's CCTP protocol",
+  "main": "cross-chain-transfer.js",
+  "scripts": {
+    "start": "node cross-chain-transfer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "circle",
+    "cctp",
+    "usdc",
+    "cross-chain",
+    "blockchain",
+    "defi",
+    "stablecoin"
+  ],
+  "author": "mkr237",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkr237/circle-cctp-transfer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkr237/circle-cctp-transfer/issues"
+  },
+  "homepage": "https://github.com/mkr237/circle-cctp-transfer#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^8.4.0",
+    "dotenv": "^17.2.1"
+  }
+}
